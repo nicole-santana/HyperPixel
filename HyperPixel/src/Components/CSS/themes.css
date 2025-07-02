@@ -41,12 +41,14 @@
 
 .theme-red {
     /*geral*/
-    --texto: #23434c;
-    --fonte-home: font-family: 'Tech', 'W95FA', sans-serif;
-    --background: #03c;
-    --fonte-p:  "aa";
-    --fonte-footer:  "aa";
-    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+    --texto: #A61717;;
+    --fonte-home: 'Tech', 'W95FA', sans-serif;
+    --background: #1A0D0D;
+    --fonte-p:  'W95FA', sans-serif;
+    --fonte-footer:  'Tech', 'W95FA', sans-serif;
+    --drop-shadow: drop-shadow(0 0 1rem #A61717);
+
+    
 
     /*imagens e figuras*/
     --img-caveira: "aa";
@@ -58,22 +60,29 @@
     --fig-arvore: "aa";
     --fig-hamster: "aa";
 
+   
 
     /*card*/
-    --card:  "aa";
-    --margem-card: "aa";
-    --espaço-bt:  "aa";
-    --card-filtro:  "aa";
+    --card:  #FF4A4A;
+    --margem-card: #FF4A4A;
+    --espaço-bt:  #FF4A4A;
+    --card-filtro:  #760C0366;
+;
 }
 
 .theme-windows {
     /*geral*/
     --texto: #23434c;
-    --fonte-home: "a";
+    --fonte-home: 'W95FA', sans-serif;
     --background: #03c;
-    --fonte-p:  "aa";
-    --fonte-footer:  "aa";
+    --fonte-p:  'W95FA', sans-serif;
+    --fonte-footer:  'W95FA', sans-serif;
     --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+
+    --a: #1A0D0D;
+    --b: #760C03;
+    --c: #A61717;
+    --d: #FF4A4A;
 
     /*imagens e figuras*/
     --img-caveira: "aa";
@@ -96,10 +105,10 @@
 .theme-cm{
     /*geral*/
     --texto: #23434c;
-    --fonte-home: "a";
+    --fonte-home: 'W95FA', sans-serif;
     --background: #03c;
-    --fonte-p:  "aa";
-    --fonte-footer:  "aa";
+    --fonte-p:  'W95FA', sans-serif;
+    --fonte-footer:  'W95FA', sans-serif;
     --drop-shadow: drop-shadow(0 0 1rem var(--texto));
 
     /*imagens e figuras*/
