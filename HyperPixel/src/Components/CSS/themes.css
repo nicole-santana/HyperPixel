@@ -1,14 +1,121 @@
+@font-face {
+    font-family: 'W95FA';
+    src: url(src\assets\fonts\w95fa.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tech';
+    src: url(src\assets\fonts\Technology-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 :root {
+    /*geral*/
     --texto: #23434c;
+    --texto-home: "a";
     --background: #03c;
-    --img-caveira: "aa";
-    --img-corvo: "aa";
     --fonte-p:  "aa";
     --fonte-footer:  "aa";
+    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+
+    /*imagens e figuras*/
+    --img-caveira: "aa";
+    --img-corvo: "aa";
     --flores-sb:  "aa";
+    --estrela-d-devlogs: "aa";
+    --estrela-e-devlogs: "aa";
+    --estrela-mais-devlogs:"aa";
+    --fig-arvore: "aa";
+    --fig-hamster: "aa";
+
+
+    /*card*/
     --card:  "aa";
     --margem-card: "aa";
     --espaço-bt:  "aa";
     --card-filtro:  "aa";
 }
 
+.theme-red {
+    /*geral*/
+    --texto: #23434c;
+    --fonte-home: font-family: 'Tech', 'W95FA', sans-serif;
+    --background: #03c;
+    --fonte-p:  "aa";
+    --fonte-footer:  "aa";
+    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+
+    /*imagens e figuras*/
+    --img-caveira: "aa";
+    --img-corvo: "aa";
+    --flores-sb:  "aa";
+    --estrela-d-devlogs: "aa";
+    --estrela-e-devlogs: "aa";
+    --estrela-mais-devlogs:"aa";
+    --fig-arvore: "aa";
+    --fig-hamster: "aa";
+
+
+    /*card*/
+    --card:  "aa";
+    --margem-card: "aa";
+    --espaço-bt:  "aa";
+    --card-filtro:  "aa";
+}
+
+.theme-windows {
+    /*geral*/
+    --texto: #23434c;
+    --fonte-home: "a";
+    --background: #03c;
+    --fonte-p:  "aa";
+    --fonte-footer:  "aa";
+    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+
+    /*imagens e figuras*/
+    --img-caveira: "aa";
+    --img-corvo: "aa";
+    --flores-sb:  "aa";
+    --estrela-d-devlogs: "aa";
+    --estrela-e-devlogs: "aa";
+    --estrela-mais-devlogs:"aa";
+    --fig-arvore: "aa";
+    --fig-hamster: "aa";
+
+
+    /*card*/
+    --card:  "aa";
+    --margem-card: "aa";
+    --espaço-bt:  "aa";
+    --card-filtro:  "aa";
+}
+
+.theme-cm{
+    /*geral*/
+    --texto: #23434c;
+    --fonte-home: "a";
+    --background: #03c;
+    --fonte-p:  "aa";
+    --fonte-footer:  "aa";
+    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+
+    /*imagens e figuras*/
+    --img-caveira: "aa";
+    --img-corvo: "aa";
+    --flores-sb:  "aa";
+    --estrela-d-devlogs: "aa";
+    --estrela-e-devlogs: "aa";
+    --estrela-mais-devlogs:"aa";
+    --fig-arvore: "aa";
+    --fig-hamster: "aa";
+
+
+    /*card*/
+    --card:  "aa";
+    --margem-card: "aa";
+    --espaço-bt:  "aa";
+    --card-filtro:  "aa";
+}
