@@ -72,17 +72,14 @@
 
 .theme-windows {
     /*geral*/
-    --texto: #23434c;
+    --texto: #DBDCEE;
     --fonte-home: 'W95FA', sans-serif;
-    --background: #03c;
+    --background: #000083;
     --fonte-p:  'W95FA', sans-serif;
     --fonte-footer:  'W95FA', sans-serif;
-    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+    --drop-shadow: drop-shadow(0);
 
-    --a: #1A0D0D;
-    --b: #760C03;
-    --c: #A61717;
-    --d: #FF4A4A;
+    
 
     /*imagens e figuras*/
     --img-caveira: "aa";
@@ -94,23 +91,25 @@
     --fig-arvore: "aa";
     --fig-hamster: "aa";
 
+    
 
     /*card*/
-    --card:  "aa";
-    --margem-card: "aa";
-    --espaço-bt:  "aa";
-    --card-filtro:  "aa";
+    --card:  #DBDCEE;
+    --margem-card: #000000;
+    --espaço-bt:  #000083;
+    --card-filtro:  #0000837a ;
 }
 
 .theme-cm{
     /*geral*/
-    --texto: #23434c;
+    --texto: #F754B8;
     --fonte-home: 'W95FA', sans-serif;
-    --background: #03c;
+    --background: #000000;
     --fonte-p:  'W95FA', sans-serif;
     --fonte-footer:  'W95FA', sans-serif;
-    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+    --drop-shadow: drop-shadow(0);
 
+    
     /*imagens e figuras*/
     --img-caveira: "aa";
     --img-corvo: "aa";
@@ -123,8 +122,8 @@
 
 
     /*card*/
-    --card:  "aa";
-    --margem-card: "aa";
-    --espaço-bt:  "aa";
-    --card-filtro:  "aa";
+    --card: #4FC5C5;
+    --margem-card: #F754B8;
+    --espaço-bt:  #000000;
+    --card-filtro:  #4FC5C5;
 }
