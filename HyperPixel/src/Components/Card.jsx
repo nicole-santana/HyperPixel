@@ -22,11 +22,11 @@ export default function Card({width, height, src}) {
   const lm = lMa / 2
 
   return (
-    <div style={{width, height}}>
-      <div style={{ height: hm, borderWidth: lm, marginBottom: mB}}>
+    <div className="Card" style={{width:`${width}rem`, height:`${height}rem`}}>
+      <div className="ParteSuperiorCard" style={{ height: hm, borderWidth: lm, marginBottom: mB}}>
         <span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
       </div>
-      <a  style={{ height: hMa, borderWidth: lMa, marginTop: mT, border: red}}>
+      <a className="ParteInferiorCard" style={{ height: hMa, borderWidth: lMa, marginTop: mT, border: `2px solid red`}}>
         <img src={src} alt=""/>
       </a>
     </div>
