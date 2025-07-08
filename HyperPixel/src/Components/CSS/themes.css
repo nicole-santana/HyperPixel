@@ -33,8 +33,8 @@
 
 
     /*card*/
-    --card:  "aa";
-    --margem-card: "aa";
+    --card:  #fff;
+    --margem-card: hotpink;
     --espaço-bt:  "aa";
     --card-filtro:  "aa";
 }

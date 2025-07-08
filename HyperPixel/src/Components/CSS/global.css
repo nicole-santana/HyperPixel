@@ -1,4 +1,14 @@
-div {
-    
-    padding: 5rem;
+.Card,  .ParteSuperiorCard, .ParteInferiorCard {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+
+
+    /* border-style: solid; */
+}
+
+button {
+    width: 5px;
+    height:5px
 }

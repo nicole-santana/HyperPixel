@@ -1,5 +1,14 @@
 @import './themes.css';
 
-.Card{
+html {
+    background-color: #000083;
+}
+
+.ParteSuperiorCard, .ParteInferiorCard{
+    border-color: var(--card);
+    
+}
+.Card {
+    border-color: var(--margem-card);
 
 }

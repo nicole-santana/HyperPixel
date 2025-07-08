@@ -11,28 +11,55 @@ export default function Card({width, height, src}) {
 // grossura dos lados das partes menores = lm
 // grossura dos lados da parte maior = lMa
 
-// margin bottom da parte superior = mB
-// margin top da parte superior = mT
+// border bottom da parte superior = mB
+// border top da parte superior = mT
 
   const hm = height / 14
-  const hMa = width - hm
+  const hMa = height - hm
+
   const lMa = width / 58
-  const mT = height / 62.5
-  const mB = mT / 2
   const lm = lMa / 2
 
-  return (
-    <div className="Card" style={{width:`${width}rem`, height:`${height}rem`}}>
-      <div className="ParteSuperiorCard" style={{ height: hm, borderWidth: lm, marginBottom: mB}}>
-        <span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
-      </div>
-      <a className="ParteInferiorCard" style={{ height: hMa, borderWidth: lMa, marginTop: mT, border: `2px solid red`}}>
-        <img src={src} alt=""/>
-      </a>
+
+  const mT = height / 62.5
+  const mB = mT / 2
+
+  const b = width/32
+  
+
+return (
+  <div className="Card" style={{ width: `${width}rem`, height: `${height}rem`, borderBottom:`${3}px solid`, borderRight:`${3}px solid`}}>
+    <div
+      className="ParteSuperiorCard"
+      style={{
+
+        height: `${hm}rem`,
+        borderTopWidth: `${mT}rem`,
+        borderInlineWidth: `${lm}rem`,
+        
+        borderBottomWidth: `${mB}rem`,
+        borderStyle: 'solid',
+       
+      }}
+    >
+      <button style={{ width: `${b}rem`, height: `${b}rem`, paddingBlock: `${b/2}rem`}}>X</button>
     </div>
+    <a
+      className="ParteInferiorCard"
+       style={{
+            height: `${hMa}rem`,
+            borderWidth: `${lMa}rem`,
+            boxSizing: 'border-box',
+            borderStyle: 'solid',
+           
+         // marginTop: `${mT}rem`,
+         // borderStyle: 'solid',
+         // borderColor: 'red'
+     }}
+    >
+      <img src={src} alt=""  />
+    </a>
+  </div>
+)
 
-    
-  )
 }
-
-
