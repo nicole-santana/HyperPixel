@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'W95FA';
-    src: url(src\assets\fonts\w95fa.woff2) format('woff2');
+    src: url('/src/assets/fonts/w95fa.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tech';
-    src: url(src\assets\fonts\Technology-Bold.ttf) format('truetype');
+    src: url('/src/assets/fonts/Technology-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -15,10 +15,10 @@
 :root {
     /*geral*/
     --texto: #23434c;
-    --texto-home: "a";
+    --texto-home: 'W95FA';
     --background: #03c;
-    --fonte-p:  "aa";
-    --fonte-footer:  "aa";
+    --fonte-p: 'W95FA', sans-serif;
+    --fonte-footer:  'W95FA', sans-serif;
     --drop-shadow: drop-shadow(0 0 1rem var(--texto));
 
     /*imagens e figuras*/

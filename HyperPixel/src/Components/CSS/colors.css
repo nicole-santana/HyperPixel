@@ -9,6 +9,17 @@ html {
     
 }
 .Card {
-    border-color: var(--margem-card);
+    border-bottom-color:  var(--margem-card);
+    border-right-color: var(--margem-card);
+}
 
+.Card button {
+    border-width: 0 2px 2px 0;
+    border-color: var(--margem-card);
+}
+
+button span {
+    font-family: var(--texto-home);
+    
+   
 }

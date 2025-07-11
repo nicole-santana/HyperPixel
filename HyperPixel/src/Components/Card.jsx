@@ -28,7 +28,7 @@ export default function Card({width, height, src}) {
   
 
 return (
-  <div className="Card" style={{ width: `${width}rem`, height: `${height}rem`, borderBottom:`${3}px solid`, borderRight:`${3}px solid`}}>
+  <div className="Card" style={{ width: `${width}rem`, height: `${height}rem`, borderWidth:`${3}px solid`}}>
     <div
       className="ParteSuperiorCard"
       style={{
@@ -42,7 +42,7 @@ return (
        
       }}
     >
-      <button style={{ width: `${b}rem`, height: `${b}rem`, paddingBlock: `${b/2}rem`}}>X</button>
+      <button><span>x</span></button>
     </div>
     <a
       className="ParteInferiorCard"

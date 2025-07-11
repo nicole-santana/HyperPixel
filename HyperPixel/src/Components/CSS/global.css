@@ -3,12 +3,43 @@
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
-
-
-    /* border-style: solid; */
 }
 
-button {
-    width: 5px;
-    height:5px
+.Card {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    justify-content: center;
+}
+
+.Card button {
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0.3rem;
+    
+    align-self: flex-end;
+
+    margin-right: 2%;
+    margin-block: 0.5%;
+    line-height: 0;
+
+    border-radius: 0;
+}
+
+.Card button span {
+
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-size: xx-small;
+   
+}
+
+.Card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+
 }
