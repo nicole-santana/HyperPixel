@@ -37,3 +37,18 @@ button span {
   
 }
 
+/* --------------------------------------------footer----------------------------------------------------------------------- */
+
+
+
+.Lanhouse {
+    font-family: var(--texto-home);
+    color: var(--texto);
+    text-shadow: var(--drop-shadow-texto);
+  
+}
+
+.FooterInfo {
+    font-family: var(--fonte-p);
+    color: var(--texto);
+}

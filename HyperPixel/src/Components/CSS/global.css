@@ -68,9 +68,6 @@ body {
     text-decoration: none;
     font-size: 1rem;
     line-height: auto;
-    
-
-
 }
 .Header button {
     background: none;
@@ -92,3 +89,49 @@ body {
     justify-content: space-between;
     gap: 2.5rem;
 }
+
+/* --------------------------------------------footer----------------------------------------------------------------------- */
+
+.Footer {
+    margin-top: 2rem;
+
+}
+.Lanhouse {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+ 
+}
+
+.Lanhouse-content {
+  display: inline-block;
+  animation: marquee 40s linear infinite;
+}
+
+.Lanhouse-content span {
+  display: inline-block;
+  padding-right: 4rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.FooterInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+
