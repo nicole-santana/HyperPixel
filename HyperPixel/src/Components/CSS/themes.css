@@ -14,12 +14,13 @@
 
 :root {
     /*geral*/
-    --texto: #23434c;
-    --texto-home: 'W95FA';
+    --texto: #fff;
+    --texto-home: 'Tech';
     --background: #03c;
     --fonte-p: 'W95FA', sans-serif;
     --fonte-footer:  'W95FA', sans-serif;
-    --drop-shadow: drop-shadow(0 0 1rem var(--texto));
+    --drop-shadow-texto: 0 0 6px white;
+    --drop-shadow: 0 0 10px var(--texto);
 
     /*imagens e figuras*/
     --img-caveira: "aa";
@@ -46,6 +47,7 @@
     --background: #1A0D0D;
     --fonte-p:  'W95FA', sans-serif;
     --fonte-footer:  'Tech', 'W95FA', sans-serif;
+    --drop-shadow-texto: text-shadow: 0 0 6px white;
     --drop-shadow: drop-shadow(0 0 1rem #A61717);
    
 
@@ -64,7 +66,8 @@
     --background: #000083;
     --fonte-p:  'W95FA', sans-serif;
     --fonte-footer:  'W95FA', sans-serif;
-    --drop-shadow: drop-shadow(0);
+    --drop-shadow-texto: none;
+    --drop-shadow: none;
 
     /*card*/
     --card:  #DBDCEE;
@@ -80,7 +83,8 @@
     --background: #000000;
     --fonte-p:  'W95FA', sans-serif;
     --fonte-footer:  'W95FA', sans-serif;
-    --drop-shadow: drop-shadow(0);
+     --drop-shadow-texto: none;
+    --drop-shadow: none;
 
     
     /*imagens e figuras*/

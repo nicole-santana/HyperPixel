@@ -1,25 +1,39 @@
 @import './themes.css';
 
-html {
-    background-color: #000083;
+body {
+    background-color: var(--background);
+}
+
+/* -------------------------------------------card----------------------------------------------------------------------- */
+
+.Card {
+    border-bottom-color:  var(--margem-card);
+    border-right-color: var(--margem-card);
+    box-shadow: var(--drop-shadow);
 }
 
 .ParteSuperiorCard, .ParteInferiorCard{
     border-color: var(--card);
-    
-}
-.Card {
-    border-bottom-color:  var(--margem-card);
-    border-right-color: var(--margem-card);
+    box-shadow: var(--drop-shadow);
 }
 
 .Card button {
     border-width: 0 2px 2px 0;
     border-color: var(--margem-card);
+    
 }
 
 button span {
     font-family: var(--texto-home);
-    
-   
 }
+
+
+/* --------------------------------------------header----------------------------------------------------------------------- */
+
+.Header a, .Header button {
+    font-family: var(--texto-home);
+    color: var(--texto);
+    text-shadow: var(--drop-shadow-texto);
+  
+}
+

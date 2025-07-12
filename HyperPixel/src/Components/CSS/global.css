@@ -1,3 +1,10 @@
+body {
+    cursor: wait;
+}
+
+
+/* --------------------------------------------card----------------------------------------------------------------------- */
+
 .Card,  .ParteSuperiorCard, .ParteInferiorCard {
     display: flex;
     flex-direction: column;
@@ -10,17 +17,18 @@
     border-top: none;
     border-left: none;
     justify-content: center;
+    cursor: zoom-in;
 }
 
 .Card button {
-    width: 0.5rem;
-    height: 0.5rem;
-    padding: 0.3rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
     
     align-self: flex-end;
 
     margin-right: 2%;
-    margin-block: 0.5%;
+    margin-block: auto;
     line-height: 0;
 
     border-radius: 0;
@@ -42,4 +50,45 @@
     display: block;
     margin: auto;
 
+}
+
+/* --------------------------------------------header----------------------------------------------------------------------- */
+
+.Header {
+
+    margin: 2.5rem 2rem 3.5rem 2rem;
+    
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.Header a, .Header button {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: auto;
+    
+
+
+}
+.Header button {
+    background: none;
+    border: none;
+    
+   
+    padding: 0;
+    margin: 0;
+}
+
+.Header span{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1.5px;
+}
+
+.Pages {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
 }

@@ -1,10 +1,14 @@
 import Card from "./Components/Card";
-import img from "/src/assets/img/home/sb-rosas-home/Rosas-vermelho.png";
+import Header from "./Components/Header";
+import img from "/src/assets/img/home/sb-rosas-home/Rosas-windows.png";
 
 export default function App(){
     return(
         <div>
-            <Card width={20} height={20} src={img} />
+            <Header/>
+            <Card width={30} height={30} src={img} />
+            
+            
         </div>
     )
 }
