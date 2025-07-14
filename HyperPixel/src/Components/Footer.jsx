@@ -1,3 +1,4 @@
+import './CSS/main.css'
 export default function Footer(){
   return (
     <div className="Footer">

@@ -30,7 +30,7 @@ button span {
 
 /* --------------------------------------------header----------------------------------------------------------------------- */
 
-.Header Link, .Header button {
+.Header a, .Header button {
     font-family: var(--texto-home);
     color: var(--texto);
     text-shadow: var(--drop-shadow-texto);

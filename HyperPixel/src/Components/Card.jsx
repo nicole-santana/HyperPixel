@@ -1,4 +1,4 @@
-
+import './CSS/main.css'
 
 export default function Card({width, height, src}) {
 

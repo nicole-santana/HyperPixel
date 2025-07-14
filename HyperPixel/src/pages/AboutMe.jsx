@@ -1,8 +1,14 @@
 import Card from "../Components/Card";
-import img from "../assets/img/home/corvo-home/corvo-windows.png"
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+
 
 export default function AboutMe(){
     return(
-        <Card width={20} height={30} src={img}/>
+        <div>
+            <Header />
+                   
+            <Footer />
+        </div>
     )
 }
