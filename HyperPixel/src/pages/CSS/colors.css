@@ -1,0 +1,20 @@
+@import '/src/Components/CSS/themes.css';
+
+/* ------------------------------------------------------Home----------------------------------------------------- */
+/* .HomeCards h1 {
+    font-family: var(--fonte-home);
+} */
+
+.PrimeiroCard {
+    font-family: var(--texto-home);
+    color: var(--texto);
+    text-shadow: var(--drop-shadow-texto);
+}
+
+
+.SegundoCard {
+    font-family: var(--fonte-p);
+    color: var(--texto);
+    font-size: 8px;
+   
+}

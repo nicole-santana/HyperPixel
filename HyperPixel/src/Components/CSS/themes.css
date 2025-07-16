@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 @font-face {
     font-family: 'W95FA';
-    src: url('/src/assets/fonts/w95fa.woff2') format('woff2');
-    font-weight: normal;
+    src: url('/src/assets/fonts/W95FA.otf') format('opentype');
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -22,15 +25,6 @@
     --drop-shadow-texto: 0 0 6px white;
     --drop-shadow: 0 0 10px var(--texto);
 
-    /*imagens e figuras*/
-    --img-caveira: "aa";
-    --img-corvo: "aa";
-    --flores-sb:  "aa";
-    --estrela-d-devlogs: "aa";
-    --estrela-e-devlogs: "aa";
-    --estrela-mais-devlogs:"aa";
-    --fig-arvore: "aa";
-    --fig-hamster: "aa";
 
 
     /*card*/
