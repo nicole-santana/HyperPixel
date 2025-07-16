@@ -3,11 +3,12 @@ import Card from "../Components/Card";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import img from "../assets/img/home/corvo-home/corvo-windows.png";
+import imgThemes from "../data/themeImg";
 
-export default function Home(){
+
+export default function Home( { theme } ) {
     return(
         <div>
-            <Header />
 
             <div className="HomeCards">
                 <div className="PrimeiroCard">
@@ -29,10 +30,12 @@ export default function Home(){
                     <Card width={20} height={20} img={img}/>
                 </div>
             </div>
-            
-                
-            
-            <Footer />
+
+            <div>
+                <img src={imgThemes[theme].imgCaveira} alt="a" />
+                <Card width={20} height={20} img={img}/>
+            </div>
+    
         </div>
         
     )

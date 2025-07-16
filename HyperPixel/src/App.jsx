@@ -1,22 +1,37 @@
-import Home from "/src/pages/Home.jsx";
-import AboutMe from "/src/pages/AboutMe.jsx";
-import Devlogs from "/src/pages/Devlogs.jsx";
-import OtherProjects from "/src/pages/OtherProjects.jsx";
+import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import Devlogs from './pages/Devlogs';
+import OtherProjects from './pages/OtherProjects';
 
+export default function App() {
+  const themes = ["vermelho", "windows", "rec"];
+  const [themeIndex, setThemeIndex] = useState(0);
 
-export default function App(){
-    return(
-        <div>
-            <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/aboutMe" element={<AboutMe />}/> 
-                <Route path="/otherProjects" element={<OtherProjects />}/> 
-                <Route path="/devlogs" element={<Devlogs />}/>
-            </Routes>
+  const currentTheme = themes[themeIndex];
 
+  const handleNextTheme = () => {
+    setThemeIndex((prev) => (prev + 1) % themes.length);
+  };
 
-            
-        </div>
-    )
+  return (
+    <div>
+      <Header
+        theme={currentTheme}
+        handleNextTheme={handleNextTheme}
+      />
+
+      <Routes>
+        <Route path="/" element={<Home theme={currentTheme} />} />
+        <Route path="/aboutMe" element={<AboutMe theme={currentTheme} />} />
+        <Route path="/devlogs" element={<Devlogs theme={currentTheme} />} />
+        <Route path="/otherProjects" element={<OtherProjects theme={currentTheme} />} />
+      </Routes>
+
+      <Footer />
+    </div>
+  );
 }

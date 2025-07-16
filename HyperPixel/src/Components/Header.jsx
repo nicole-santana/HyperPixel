@@ -1,8 +1,9 @@
 import './CSS/main.css'
-
 import { Link } from 'react-router-dom';
 
-export default function Header(){
+export default function Header({ theme, handleNextTheme }){
+
+    
     return(
         <div className="Header">
 
@@ -16,7 +17,7 @@ export default function Header(){
             </div>
             
 
-            <button><span>C</span>hange color theme</button>
+            <button onClick={handleNextTheme}><span>C</span>hange color theme</button>
         </div>
        
 
