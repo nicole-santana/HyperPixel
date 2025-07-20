@@ -1,15 +1,98 @@
 /* ------------------------------------------------------Home----------------------------------------------------- */
-.HomeCards {
-    display: flex;
-    flex-direction: column;
+
+* {
+  outline: 1px solid red;
 }
 
-.HomeCards h1 {
-    display: flex;
-    flex-direction: column;
+html {
+    padding: 0;
 }
-.PrimeiroCard, .SegundoCard{
+
+.Home {
+    margin-left: 2rem;
     display: flex;
     flex-direction: row;
+
 }
+
+.Home h1 {
+    text-align: justify;
+    gap: 0.2rem;
+}
+
+.PrimeiroCard, .SegundoCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.PrimeiroCard {
+    margin-bottom: 1rem;
+}
+
+.SegundoCard {
+    font-size: 0.8rem;
+}
+
+.HomeCards, .CaveiraHome, .HomeCards h1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+
+
+ .CaveiraHome img{
+    z-index: 5;
+    position: relative;
+    
+    bottom: 2.5rem;
+    
+    right: 45rem;
+
+    width: 52.1875rem;
+    height: auto;
+ } 
+
+.Radio {
+    z-index: 3;
+    position: relative;
+
+right: 10rem;
+}
+
+.Corvo {
+    z-index: -1;
+   
+    top: 1rem;
+    
+    right: 20rem; 
+    position: relative;
+
+    width: 38.8rem;
+    height: fit-content;
+}
+
+.Flores {
+    z-index: 3;
+    
+    /* coordenada Y do Figma */
+    /* top: 32.125rem; */
+    /* coordenada X do Figma */
+    /* left: 40.9375rem; */
+
+    position: relative;
+    right:45rem;
+    bottom: 5.5rem;
+    width: 13.375rem;
+    height:fit-content;
+
+}
+
+/* .SegundoCard h1 {
+    margin-left: 2rem;
+} */
 
