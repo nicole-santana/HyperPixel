@@ -6,7 +6,8 @@ import imgThemes from "../data/themeImg";
 
 export default function Home( { theme } ) {
     return(
-        <div className='Home'>
+        <div id='TudoHome'>
+            <div className='Home'>
 
             <div className="HomeCards">
                 <div className="PrimeiroCard">
@@ -31,12 +32,19 @@ export default function Home( { theme } ) {
                 </div>
             </div>
 
-            <div className='CaveiraHome'>
-                <img  src={imgThemes[theme].imgCaveira} alt="a" />
-                <Card className="Radio" width={15.5} height={9.125} img={img}/>
-            </div>
+            
     
         </div>
+
+        <div className='CaveiraHome'>
+                <img id='Caveira' src={imgThemes[theme].imgCaveira} alt="a" />
+            </div>
+
+        <div id='Radio'>
+            <Card  width={15.5} height={9.125} img={img}/>
+        </div>
+        </div>
+        
         
     )
 }

@@ -8,6 +8,10 @@ html {
     padding: 0;
 }
 
+.TudoHome {
+    height: min-content;
+}
+
 .Home {
     margin-left: 2rem;
     display: flex;
@@ -36,33 +40,47 @@ html {
     font-size: 0.8rem;
 }
 
-.HomeCards, .CaveiraHome, .HomeCards h1{
-    flex: 1;
+.HomeCards, .HomeCards h1{
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
 }
 
+#Caveira {
+  transform: translateX(-45rem);
+  position: relative;
+}
 
 
- .CaveiraHome img{
+ #Caveira{
     z-index: 5;
     position: relative;
     
-    bottom: 2.5rem;
+    bottom: 47rem;
     
-    right: 45rem;
+    left: 85rem;
 
     width: 52.1875rem;
+   
     height: auto;
  } 
 
-.Radio {
-    z-index: 3;
-    position: relative;
-
-right: 10rem;
+.CaveiraHome {
+    width: 0;
+    height: fit-content;
 }
+
+#Radio {
+  position: relative !important;
+  bottom: 60rem;
+  left: 72rem;
+  margin-bottom: -20rem;
+  z-index: 10;
+  width: fit-content;
+  height: fit-content;
+}
+
 
 .Corvo {
     z-index: -1;

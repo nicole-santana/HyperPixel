@@ -100,7 +100,7 @@ body {
 
 .Footer {
   margin-top: 2rem;
-  z-index: 99;
+  z-index: 60;
   
 }
 .Lanhouse {
@@ -139,6 +139,7 @@ body {
     margin-inline: 3rem;
     margin-top: 1rem;
     margin-bottom: 0.25rem;
+   
 }
 
 
