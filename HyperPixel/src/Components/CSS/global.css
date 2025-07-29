@@ -100,8 +100,7 @@ body {
 
 .Footer {
   margin-top: 2rem;
-  z-index: 60;
-  
+  z-index: 99;
 }
 .Lanhouse {
   overflow: hidden;

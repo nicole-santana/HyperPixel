@@ -36,13 +36,17 @@ export default function Home( { theme } ) {
     
         </div>
 
-        <div className='CaveiraHome'>
-                <img id='Caveira' src={imgThemes[theme].imgCaveira} alt="a" />
-            </div>
+        <div id="Outros">
+            <div className='CaveiraHome'>
+                    <img id='Caveira' src={imgThemes[theme].imgCaveira} alt="a" />
+                </div>
 
-        <div id='Radio'>
-            <Card  width={15.5} height={9.125} img={img}/>
+            <div id='Radio'>
+                <Card  width={15.5} height={9.125} img={img}/>
+            </div>
         </div>
+
+            
         </div>
         
         

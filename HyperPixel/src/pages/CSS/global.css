@@ -6,10 +6,19 @@
 
 html {
     padding: 0;
+    height: fit-content;
 }
 
 .TudoHome {
-    height: min-content;
+
+    height: fit-content;
+    padding-bottom: 2rem;
+    
+
+}
+
+body {
+    height: fit-content;
 }
 
 .Home {
@@ -48,20 +57,21 @@ html {
 }
 
 #Caveira {
-  transform: translateX(-45rem);
+   transform: translateY(63rem); 
   position: relative;
 }
 
 
  #Caveira{
+
     z-index: 5;
-    position: relative;
+    
     
     bottom: 47rem;
     
-    left: 85rem;
+    left: 42rem;
 
-    width: 52.1875rem;
+    width: 50rem;
    
     height: auto;
  } 
@@ -69,16 +79,25 @@ html {
 .CaveiraHome {
     width: 0;
     height: fit-content;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: -30rem;
+    top: 10rem;
+   
 }
 
 #Radio {
-  position: relative !important;
-  bottom: 60rem;
-  left: 72rem;
-  margin-bottom: -20rem;
-  z-index: 10;
+  
+
+  left: 73rem;
+  transform: translateY(-60rem);
+  
+  z-index: 7;
   width: fit-content;
   height: fit-content;
+  margin-bottom: 0;
+    padding-bottom: 0;
+  
 }
 
 
@@ -114,3 +133,13 @@ html {
     margin-left: 2rem;
 } */
 
+
+#Outros {
+    position: relative;
+}
+
+#Caveira, #Radio {
+    position: absolute;
+    /* set top/left/right/bottom as needed */
+    
+}
