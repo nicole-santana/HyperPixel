@@ -1,5 +1,7 @@
 /* ------------------------------------------------------Home----------------------------------------------------- */
-
+* {
+    border: 1px lime solid;
+}
 html {
     padding: 0;
     height: fit-content;
@@ -138,4 +140,38 @@ body {
     padding-bottom: 3rem;
     /* set top/left/right/bottom as needed */
     
+}
+
+/* ------------------------------------------------------AboutMe----------------------------------------------------- */
+
+#AboutMe {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+#CardAboutMe {
+    z-index: 15;
+    position: relative;
+    margin-bottom: -16rem;
+
+
+}
+#Arvore {
+    z-index: 1;
+    transform: translateX(40rem) translateY(-20rem);
+    position: absolute;
+    width: 50.290625rem;
+    height: auto;
+    /* margin-bottom: -140rem; */
+}
+
+#AboutMe p {
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    
+    align-items: flex-end;
+    transform:  translateY(10rem);
 }
