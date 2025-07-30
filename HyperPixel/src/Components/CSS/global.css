@@ -99,8 +99,9 @@ body {
 /* --------------------------------------------footer----------------------------------------------------------------------- */
 
 .Footer {
-  margin-top: 2rem;
-  z-index: 99;
+  margin-top: 16rem;
+z-index: 5;
+
 }
 .Lanhouse {
   overflow: hidden;
