@@ -16,8 +16,10 @@ export default function Header({ theme, handleNextTheme }){
                 
             </div>
             
-
-            <button onClick={handleNextTheme}><span>C</span>hange color theme</button>
+                <button onClick={handleNextTheme}>
+                    <span>C</span>hange color theme
+                </button>
+            
         </div>
        
 

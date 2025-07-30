@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -9,9 +9,13 @@ import OtherProjects from './pages/OtherProjects';
 
 export default function App() {
   const themes = ["vermelho", "windows", "rec"];
+  const themesColor = ['theme-red', 'theme-windows', 'theme-cm'];
   const [themeIndex, setThemeIndex] = useState(0);
 
-  const currentTheme = themes[themeIndex];
+  // Set theme class on html element whenever themeIndex changes
+  useEffect(() => {
+    document.documentElement.className = themesColor[themeIndex];
+  }, [themeIndex, themesColor]);
 
   const handleNextTheme = () => {
     setThemeIndex((prev) => (prev + 1) % themes.length);
@@ -20,15 +24,15 @@ export default function App() {
   return (
     <div>
       <Header
-        theme={currentTheme}
+        theme={themes[themeIndex]}
         handleNextTheme={handleNextTheme}
       />
 
       <Routes>
-        <Route path="/" element={<Home theme={currentTheme} />} />
-        <Route path="/aboutMe" element={<AboutMe theme={currentTheme} />} />
-        <Route path="/devlogs" element={<Devlogs theme={currentTheme} />} />
-        <Route path="/otherProjects" element={<OtherProjects theme={currentTheme} />} />
+        <Route path="/" element={<Home theme={themes[themeIndex]} />} />
+        <Route path="/aboutMe" element={<AboutMe theme={themes[themeIndex]} />} />
+        <Route path="/devlogs" element={<Devlogs theme={themes[themeIndex]} />} />
+        <Route path="/otherProjects" element={<OtherProjects theme={themes[themeIndex]} />} />
       </Routes>
 
       <Footer />
