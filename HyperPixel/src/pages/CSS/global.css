@@ -175,3 +175,17 @@ body {
     align-items: flex-end;
     transform:  translateY(10rem);
 }
+
+/* ------------------------------------------------------Devlogs----------------------------------------------------- */
+
+#PrimeiraParte {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+#PrimeiraParte img {
+    position: relative;
+    z-index: 3;
+    
+}

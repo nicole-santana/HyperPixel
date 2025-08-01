@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Devlogs from './pages/Devlogs';
 import OtherProjects from './pages/OtherProjects';
+import './pages/CSS/main.css'
 
 export default function App() {
   const themes = ["vermelho", "windows", "rec"];

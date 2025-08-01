@@ -1,7 +1,7 @@
 import Card from "../Components/Card";
-import img from "../assets/img/home/corvo-home/corvo-windows.png";
+import img from "/assets/img/home/corvo-home/corvo-windows.png";
 import imgThemes from "../data/themeImg";
-import './CSS/main.css';
+
 
 
 export default function AboutMe({ theme }) {

@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Tech';
-    src: url('/src/assets/fonts/Technology-Bold.ttf') format('truetype');
+    src: url('/assets/fonts/Technology-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
