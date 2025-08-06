@@ -178,14 +178,101 @@ body {
 
 /* ------------------------------------------------------Devlogs----------------------------------------------------- */
 
+
+#Devlogs {
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+}
+
 #PrimeiraParte {
+margin-bottom: 5rem;
+}
+#PrimeiraParte, #MaisDevlogs {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     z-index: 1;
 }
 
-#PrimeiraParte img {
+#PrimeiraParte h2, #PrimeiraParte p, .VerMais {
+    width: 24.6875rem;
+}
+.VerMais {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+#Estrelas1 {
     position: relative;
+    z-index: -1;
+}
+
+
+#Direita {
+    position: absolute;
+    width: 19.125rem;
+    height: auto;
+    transform: translateX(23.5rem) translateY(-47rem) ;
+}
+
+ #Esquerda{
+    width: 15.75rem;
+    height: auto;
+    transform: translateX(57.4rem) translateY(-46.5rem) ;
+    position: absolute;
+ }
+
+
+ #MaisDevlogs, #MaisDevlogs div, #MaisDevlogs h3 {
+    
+    align-items: center;
+    line-height: 3rem;
+    margin-top: -2rem;
+    
+   
+    
+ }
+
+ #SegundaParte {
+    margin-bottom: -23rem;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #SegundaParte img {
     z-index: 3;
+    transform: translateY(-15rem);
+ }
+
+ #MaisDevlogs {
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+ }
+#MaisDevlogs div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espaço vertical entre os links */
+    align-items: stretch; 
     
 }
+
+
+ #MaisDevlogs a {
+    display: block;
+    justify-content:flex-end;
+    width: 100%;    
+    
+    max-width: none;  
+   
+    text-align: center;
+    text-decoration: none;
+ }
+
+ h3 {
+    margin-bottom: 6rem;
+ }
+ 

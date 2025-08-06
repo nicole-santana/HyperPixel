@@ -24,3 +24,10 @@ p {
     font-family: var(--fonte-p);
     color: var(--texto);
 }
+
+/* ------------------------------------------------------Devlogs----------------------------------------------------- */
+
+h2, h3, a{
+    font-family: var(--fonte-home);
+    color: var(--card);
+}
