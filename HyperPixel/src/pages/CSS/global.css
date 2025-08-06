@@ -1,6 +1,7 @@
 /* ------------------------------------------------------Home----------------------------------------------------- */
 * {
     border: 1px lime solid;
+   
 }
 html {
     padding: 0;
@@ -17,6 +18,7 @@ html {
 
 body {
     height: fit-content;
+  
 }
 
 .Home {
@@ -276,3 +278,42 @@ margin-bottom: 5rem;
     margin-bottom: 6rem;
  }
  
+ 
+/* ------------------------------------------------------OtherProjects----------------------------------------------------- */
+
+#OtherProjects {
+    
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    
+}
+
+#Hamster {
+    flex-direction: column;
+    align-content: end;
+    justify-content: space-between;
+}
+
+#Hamster p {
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 0.5rem;
+    margin-left: 26%;
+    
+    
+    
+}
+
+#Hamster img {
+    width: 50.8125rem;
+    height: auto;
+
+}
+
+#Hamster #texto {
+    margin-bottom: 20%;
+    margin-top: 8rem;
+}

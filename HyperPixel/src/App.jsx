@@ -11,11 +11,17 @@ import './pages/CSS/main.css'
 export default function App() {
   const themes = ["vermelho", "windows", "rec"];
   const themesColor = ['theme-red', 'theme-windows', 'theme-cm'];
-  const [themeIndex, setThemeIndex] = useState(0);
+
+  // Load theme index from localStorage, default to 0
+  const [themeIndex, setThemeIndex] = useState(() => {
+    const saved = localStorage.getItem('themeIndex');
+    return saved !== null ? Number(saved) : 0;
+  });
 
   // Set theme class on html element whenever themeIndex changes
   useEffect(() => {
     document.documentElement.className = themesColor[themeIndex];
+    localStorage.setItem('themeIndex', themeIndex); // Save on change
   }, [themeIndex, themesColor]);
 
   const handleNextTheme = () => {
