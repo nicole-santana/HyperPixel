@@ -51,6 +51,10 @@
     --espaço-bt:  #FF4A4A;
     --card-filtro:  #760C0366;
 
+    /* Cobrinha */
+    --Cobra: #FF4A4A;
+    --Comida: #A61717;
+
 }
 
 .theme-windows {
@@ -68,6 +72,10 @@
     --margem-card: #000000;
     --espaço-bt:  #000083;
     --card-filtro:  #0000837a ;
+
+    /* Cobrinha */
+    --Cobra: #DBDCEE;
+    --Comida: #000000;
 }
 
 .theme-cm{
@@ -97,4 +105,8 @@
     --margem-card: #F754B8;
     --espaço-bt:  #000000;
     --card-filtro:  #4FC5C5;
+
+    /* Cobrinha */
+    --Cobra: #F754B8;
+    --Comida: #4FC5C5;
 }
