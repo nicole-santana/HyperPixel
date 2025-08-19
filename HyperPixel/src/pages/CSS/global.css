@@ -244,13 +244,21 @@ margin-bottom: 5rem;
     transform: translateY(-15rem);
  }
 
- #MaisDevlogs {
-    justify-content: space-between;
+ /* #MaisDevlogs {
+    /* justify-content: space-between;
     gap: 3rem;
     margin-bottom: 2rem;
     margin-left: 7rem;
-    margin-right: 7rem;
- }
+    margin-right: 7rem; 
+ } */
+
+ #MaisDevlogs {
+    columns: 3 !important;         /* força 3 colunas */
+  column-gap: 20px;  
+  height: fit-content;
+  
+}
+
 #MaisDevlogs div {
     display: flex;
     flex-direction: column;
