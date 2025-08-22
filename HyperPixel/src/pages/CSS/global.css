@@ -1,5 +1,7 @@
 /* ------------------------------------------------------Home----------------------------------------------------- */
-
+/* * {
+    border: 4px solid red
+} */
 html {
     padding: 0;
     height: fit-content;
@@ -178,112 +180,81 @@ body {
 /* ------------------------------------------------------Devlogs----------------------------------------------------- */
 
 
-#Devlogs {
-    margin-left: 2rem;
-    margin-right: 2rem;
-   
-}
-
+/* Mantém os 3 primeiros devlogs lado a lado */
 #PrimeiraParte {
-margin-bottom: 5rem;
-}
-#PrimeiraParte, #MaisDevlogs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+ margin-right: 2rem;
 }
 
-#PrimeiraParte h2, #PrimeiraParte p, .VerMais {
-    width: 24.6875rem;
-}
+#PrimeiraParte h2,
+#PrimeiraParte p,
 .VerMais {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
-}
-#Estrelas1 {
-    position: relative;
-    z-index: -1;
+  width: 24.6875rem;
 }
 
+/* Botão "ver mais" alinhado */
+.VerMais {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+/* Estrelas continuam absolutas */
+#Estrelas1 {
+  position: relative;
+  z-index: -1;
+}
 
 #Direita {
-    position: absolute;
-    width: 19.125rem;
-    height: auto;
-    transform: translateX(23.5rem) translateY(-47rem) ;
+  position: absolute;
+  width: 19.125rem;
+  height: auto;
+  transform: translateX(23.5rem) translateY(-47rem);
 }
 
- #Esquerda{
-    width: 15.75rem;
-    height: auto;
-    transform: translateX(57.4rem) translateY(-46.5rem) ;
-    position: absolute;
- }
-
-
- #MaisDevlogs, #MaisDevlogs div, #MaisDevlogs h3 {
-    
-    align-items: center;
-    line-height: 3rem;
-    margin-top: -2rem;
-    
-   
-    
- }
-
- #SegundaParte {
-    margin-bottom: -23rem;
-    align-items: center;
-    justify-content: center;
- }
-
- #SegundaParte img {
-    z-index: 3;
-    transform: translateY(-15rem);
- }
-
- /* #MaisDevlogs {
-    /* justify-content: space-between;
-    gap: 3rem;
-    margin-bottom: 2rem;
-    margin-left: 7rem;
-    margin-right: 7rem; 
- } */
-
- #MaisDevlogs {
-    columns: 3 !important;         /* força 3 colunas */
-  column-gap: 20px;  
-  height: fit-content;
-  
-}
-
-#MaisDevlogs div {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem; /* Espaço vertical entre os links */
-    align-items: stretch; 
-    
+#Esquerda {
+  position: absolute;
+  width: 15.75rem;
+  height: auto;
+  transform: translateX(57.4rem) translateY(-46.5rem);
 }
 
 
- #MaisDevlogs a {
-    display: block;
-    justify-content:flex-end;
-    width: 100%;    
-    
-    max-width: none;  
-   
-    text-align: center;
-    text-decoration: none;
- }
+.EstrelaMaisDevlogs {
+  position: relative;
+  width: 6.25rem;
+  height: auto;
+  transform: translateX(50.5rem) translateY(-30rem);
+  z-index: 8;
+}
+/* === 3 COLUNAS SÓ PARA OS "MAIS DEVLOGS" === */
+#MaisDevlogs {
+  column-count: 3;
+  column-gap: 16px;
+  width: calc(100% - 7rem);
+  margin-left: 7rem;
+  z-index: 1;
 
- h3 {
-    margin-bottom: 6rem;
- }
- 
- 
+}
+
+#MaisDevlogs a {
+  display: inline-block;
+  width: 70%;
+  margin-bottom: 12px;
+
+  border-radius: 8px;
+  text-decoration: none;
+  break-inside: avoid;
+}
+
+#MaisDevlogs h3 {
+  margin-bottom: 1rem;
+}
+
 /* ------------------------------------------------------OtherProjects----------------------------------------------------- */
 
 #OtherProjects {

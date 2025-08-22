@@ -21,6 +21,11 @@ const devlogArticles = [
   { title: "Devlog #4 - Design repensado", url: "/articles/design" },
   { title: "Devlog #5 - Multiplayer alpha", url: "/articles/multiplayer-alpha" },
   { title: "Devlog #6 - Otimizações e performance", url: "/articles/performance" },
+  { title: "Devlog #2 - Corrigindo bugs chatos", url: "/articles/bug-fix" },
+  { title: "Devlog #3 - Novo sistema de inventário", url: "/articles/inventory-system" },
+  { title: "Devlog #4 - Design repensado", url: "/articles/design" },
+  { title: "Devlog #5 - Multiplayer alpha", url: "/articles/multiplayer-alpha" },
+  { title: "Devlog #6 - Otimizações e performance", url: "/articles/performance" },
 ];
 
 export default function Devlogs({ theme }) {
@@ -46,7 +51,8 @@ export default function Devlogs({ theme }) {
           ))}
         </div>
 
-        <img src={imgThemes[theme].estrelaMaisDevlogs} alt="" />
+          
+        <img id="EstrelaMaisDevlogs" src={imgThemes[theme].estrelaMaisDevlogs} alt="" />
       </div>
     </div>
   );
