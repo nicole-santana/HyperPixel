@@ -67,6 +67,7 @@ body {
 
 .SegundoCard {
     font-size: 0.8rem;
+    
 }
 
 .HomeCards, .HomeCards h1{
@@ -175,13 +176,13 @@ body {
 #CardAboutMe {
     z-index: 15;
     position: relative;
-    margin-bottom: -16rem;
+    
 
 
 }
 #Arvore {
-    z-index: 1;
-    transform: translateX(40rem) translateY(-20rem);
+    z-index: -3;
+    transform: translateX(40rem) translateY(-37rem);
     position: absolute;
     width: 50.290625rem;
     height: auto;
@@ -195,7 +196,8 @@ body {
     font-size: 2rem;
     
     align-items: flex-end;
-    transform:  translateY(10rem);
+    transform:  translateY(-8rem);
+    margin-bottom: 1rem;
 }
 
 /* ------------------------------------------------------Devlogs----------------------------------------------------- */
@@ -263,6 +265,7 @@ body {
   width: calc(100% - 7rem);
   margin-left: 7rem;
   z-index: 1;
+  margin-bottom: 9rem;
 }
 
 #MaisDevlogs a, label {
