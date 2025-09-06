@@ -62,11 +62,12 @@ body {
 }
 
 .PrimeiroCard {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .SegundoCard {
     font-size: 0.8rem;
+    margin-bottom: 14rem;
     
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 #Caveira {
-   transform: translateY(63rem); 
+   transform: translateY(-63rem); 
   position: relative;
 }
 
@@ -88,7 +89,7 @@ body {
     z-index: 5;
     
     
-    bottom: 47rem;
+    /* bottom: 40rem; */
     
     left: 42rem;
 
@@ -111,7 +112,7 @@ body {
   
 
   left: 73rem;
-  transform: translateY(2rem); 
+  transform: translateY(-10rem); 
   
   z-index: 7;
   width: fit-content;
