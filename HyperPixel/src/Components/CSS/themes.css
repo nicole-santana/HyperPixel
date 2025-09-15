@@ -41,8 +41,8 @@
     --background: #1A0D0D;
     --fonte-p:  'W95FA', sans-serif;
     --fonte-footer:  'Tech', 'W95FA', sans-serif;
-    --drop-shadow-texto: text-shadow: 0 0 6px white;
-    --drop-shadow: drop-shadow(0 0 1rem #A61717);
+    --drop-shadow-texto:  0 0 4px #A61717;
+    --drop-shadow: 0 0 1rem rgb(166, 23, 23);
    
 
     /*card*/
@@ -87,18 +87,6 @@
     --fonte-footer:  'W95FA', sans-serif;
     --drop-shadow-texto: none;
     --drop-shadow: none;
-
-    
-    /*imagens e figuras*/
-    --img-caveira: "aa";
-    --img-corvo: "aa";
-    --flores-sb:  "aa";
-    --estrela-d-devlogs: "aa";
-    --estrela-e-devlogs: "aa";
-    --estrela-mais-devlogs:"aa";
-    --fig-arvore: "aa";
-    --fig-hamster: "aa";
-
 
     /*card*/
     --card: #4FC5C5;

@@ -11,19 +11,25 @@ body {
 
 /* --------------------------------------------card----------------------------------------------------------------------- */
 
-.Card,  .ParteSuperiorCard, .ParteInferiorCard {
+.ParteSuperiorCard, .ParteInferiorCard {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
 }
-
-.Card {
+ div.Card {
+    /* do NOT set overflow: hidden here! */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     border-style: solid;
     border-top: none;
     border-left: none;
     justify-content: center;
     cursor: zoom-in;
+    box-shadow: var(--drop-shadow);
+    /* box-shadow:rgb(0 color 166 23 23); */
+    /* drop-shadow(0 0 1rem #A61717); */
 }
 
 .Card button {
