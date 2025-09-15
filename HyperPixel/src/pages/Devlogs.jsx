@@ -82,7 +82,14 @@ export default function Devlogs({ theme }) {
 
 			<div id="SegundaParte">
 				<h3>Mais Devlogs</h3>
+				
 				<div id="MaisDevlogs">
+
+					<img
+					id="EstrelaMaisDevlogs"
+					src={imgThemes[theme].estrelaMaisDevlogs}
+					alt=""
+				/>
 					{devlogFolders.map((folder, idx) => (
 						<div key={idx} style={{ breakInside: "avoid", marginBottom: "1rem" }}>
 							<button
@@ -117,11 +124,7 @@ export default function Devlogs({ theme }) {
 						</div>
 					))}
 				</div>
-				<img
-					id="EstrelaMaisDevlogs"
-					src={imgThemes[theme].estrelaMaisDevlogs}
-					alt=""
-				/>
+				
 			</div>
 		</div>
 	);
