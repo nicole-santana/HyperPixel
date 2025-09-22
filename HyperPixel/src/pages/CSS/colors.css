@@ -6,7 +6,7 @@
 } */
 
 .PrimeiroCard {
-    font-family: var(--texto-home);
+    font-family: var(--fonte-home);
     color: var(--texto);
     text-shadow: var(--drop-shadow-texto);
 }

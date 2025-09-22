@@ -20,18 +20,19 @@ body {
 .Card button {
     border-width: 0 2px 2px 0;
     border-color: var(--margem-card);
+    background-color: var(--card);
     
 }
 
 button span {
-    font-family: var(--texto-home);
+    font-family: var(--fonte-home);
 }
 
 
 /* --------------------------------------------header----------------------------------------------------------------------- */
 
 .Header a, .Header button {
-    font-family: var(--texto-home);
+    font-family: var(--fonte-home);
     color: var(--texto);
     text-shadow: var(--drop-shadow-texto);
   
@@ -42,7 +43,7 @@ button span {
 
 
 .Lanhouse {
-    font-family: var(--texto-home);
+    font-family: var(--fonte-home);
     color: var(--texto);
     text-shadow: var(--drop-shadow-texto);
   
